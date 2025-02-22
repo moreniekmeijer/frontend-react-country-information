@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    align-self: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button:active {
+    background-color: white;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.countries > li {
+    width: 15rem;
+}
+
+.flag {
+    width: 2rem;
+    margin: 0 1rem 0 0;
+}
+
+.population {
+    font-size: 0.8rem;
+}
