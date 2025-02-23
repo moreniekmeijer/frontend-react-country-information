@@ -18,6 +18,7 @@ button:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
     width: 100%;
     list-style-type: none;
     border: 1px solid lightgray;
@@ -38,4 +39,32 @@ button:active {
 
 .population {
     font-size: 0.8rem;
+}
+
+.blue {
+    color: #0000b6;
+}
+
+.green {
+    color: #006000;
+}
+
+.orange {
+    color: #c57c00;
+}
+
+.red {
+    color: #9a0000;
+}
+
+.yellow {
+    color: #bdbd00;
+}
+
+.purple {
+    color: #640080;
+}
+
+.default {
+    color: #575757;
 }
